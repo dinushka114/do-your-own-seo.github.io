@@ -3,6 +3,7 @@ layout: post
 i18n-link: algo
 locale: en
 lang: en
+order: 1
 
 date: 2019-10-07T22:19:00Z
 last_modified_at: 2019-12-01T00:21:00Z
@@ -86,7 +87,7 @@ image: "how-do-google-algorithms-work.jpg"
 <p>In contrast to high-volume, the <strong>long-tail searches</strong> <i>(looking for an extraordinary thing in the right color)</i> allow us to get on&nbsp;Top of the Search  only due to comprehensive content and user satisfaction. Unless the domain is newborn and its link profile is empty. But when the site grows out of the &ldquo;sandbox&rdquo; to which the search algorithms are slightly biased, it will be easier to master informational queries.</p>
 <p class="txt-left">
 <img loading="lazy" class="fl-right restrict vw40" src="/images/posts/inStock.jpg" alt="In order for product cards to rank high, the schema.org Product & Offer markup must be implemented."> Versions of this article in other languages ​​are positive that optimized product pages can get into the Top 10 without link building, even competing with authoritative Web stores.</p>
-<p>For some locations, this is the case. But I'm afraid this is not true where Amazon and eBay are so strong: I have no experience in promoting e-commerce sites in &ldquo;Amazon-basin&rdquo; countries. Thus, if it was about my business, I'd better open a branch in the marketplace and start optimizing it than to invest all my efforts into a separate store. So what do you think: is it worth to optimize shop product cards at all?</p>
+<p>For some locations, this is the case. But it appears not to be like that where Amazon and eBay are so strong: I have no experience in promoting e-commerce sites in &ldquo;Amazon-basin&rdquo; countries. Thus, if it was about my business, I'd better open a branch in the marketplace and start optimizing it than to invest all my efforts into a separate store. So what do you think: is it worth to optimize shop product cards at all?</p>
 <p>The<span class="under"> hardest thing is to promote hub pages</span>, such as product category or blog homepage. They can't solve the user's problem: their mission is to redirect to the destination. Without an influx of incoming links and authoritative domain support, they'll quickly lose the equity and be unable to hold Top positions.</p>
 <h3>On the high-quality content</h3>
 <p>Well, you have faith in your skills and have decided to conquer Olympus with the perfection of content. I add my full support &nbsp;<i class="icon icon-handshake"></i>&nbsp; to the idea: let's try to produce well-structured content with clear headlines and descriptive illustrations.</p>

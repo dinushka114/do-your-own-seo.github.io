@@ -3,6 +3,7 @@ layout: post
 i18n-link: PR
 lang: uk
 locale: ua
+order: 3
 
 date: 2019-12-03T20:09:00Z
 last_modified_at: 2019-12-28T17:00:00Z

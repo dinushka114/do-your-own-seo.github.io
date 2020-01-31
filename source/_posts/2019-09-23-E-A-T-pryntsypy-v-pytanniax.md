@@ -1,6 +1,6 @@
 ---
 layout: post
-i18n-link: E-A-T
+i18n-link: e-a-t
 locale: ua
 lang: uk
 
