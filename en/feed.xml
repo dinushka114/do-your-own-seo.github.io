@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:webfeeds="http://webfeeds.org/rss/1.0"><channel>
+    <title>Do Your Own SEO blog</title>
+    <description>Symbiosis of SEO practice and theory &#9728; Website optimization on your own &#9728; Іf you understand SEO, you can Do It Yourself: it's adventurous and exciting!</description>
+    <link>https://do-your-own-seo.com/en/</link>
+    <atom:link href="https://do-your-own-seo.com/en/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 11 Feb 2020 21:28:07 +0000</pubDate>
+    <lastBuildDate>Tue, 11 Feb 2020 21:28:07 +0000</lastBuildDate>
+    <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
+    <webfeeds:icon>https://do-your-own-seo.com/images/square-icon.png</webfeeds:icon>
+    <webfeeds:logo>https://do-your-own-seo.com/images/favicon-30px-height.png</webfeeds:logo>
+    <webfeeds:accentColor>618930</webfeeds:accentColor>
+    <webfeeds:related layout="card" target="browser"/>
+      <item>
+        <title>How do links supply the page with juice? Talk about link attributes and more</title>
+        <description>Everybody wants to know how links distribute &#8220;juice&#8221; among webpages, and what amount of it to be dissipated. And while we endeavor to guess a proportion, the GoogleBot chuckles reading that every dofollow link passes &#8727;&#8727;% of equity.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/link-juice-leakage.jpg" class="webfeedsFeaturedVisual"/>]]>
+            
+        </description>
+        <pubDate>Fri, 13 Dec 2019 19:02:00 +0000</pubDate>
+        <link>https://do-your-own-seo.com/pagerank-formula-link-equity-distribution</link>
+        <guid isPermaLink="true">https://do-your-own-seo.com/pagerank-formula-link-equity-distribution</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/link-juice-leakage.jpg" /><category>PageRank</category><category>link juice</category><category>link equity</category><category>Google</category><category>SEO</category></item>
+    
+      <item>
+        <title>How does Google rank webpages?</title>
+        <description>Unlike the situation in SEO ten years ago, now purchased magic does not work. Buying links won't bring the page to the Top and could even hurt your rankings. Search algorithms are more likely to choose high-grade resources, and Google patents confirm this trend.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/how-do-google-algorithms-work.jpg" class="webfeedsFeaturedVisual"/>]]>
+            
+        </description>
+        <pubDate>Mon, 07 Oct 2019 22:19:00 +0000</pubDate>
+        <link>https://do-your-own-seo.com/how-do-google-algorithms-work</link>
+        <guid isPermaLink="true">https://do-your-own-seo.com/how-do-google-algorithms-work</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/how-do-google-algorithms-work.jpg" /><category>Google</category><category>Google аlgorithms</category><category>Search ranking</category><category>SEO</category></item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,0 @@
----
----
-
-User-agent: *
-Allow: /
-Sitemap: {{ site.url }}/sitemap.xml
-
-User-agent: Yandex
-Disallow: /yandex_610a30e2f8e9a5d5.html
