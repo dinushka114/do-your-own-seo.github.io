@@ -79,15 +79,15 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 </ul>
 <div>
 <p>Гадаете, зачем нужен свой иконочный шрифт, когда их и без того достаточно? Для стили&#173;зации интер&#173;фейса и придания уника&#173;ль&#173;ного колорита контенту! К примеру, дизай&#173;нерский алфавит удобно исполь&#173;зовать для <b>буквиц</b>, выделяя ими начало каждого тексто&#173;вого раздела.</p>
-<p class="txt-center"><img src="/images/posts/celtic-and-slavic-initial-letters.jpg" alt="Кельтская и славянская буквицы" loading="lazy" /><br />
+<p class="txt-center"><img src="/images/posts/celtic-and-slavic-initial-letters.jpg" alt="Кельтская и древнеславянская буквицы" loading="lazy" /><br />
 <small>Кельтская (слева) и славянская буквицы</small></p>
 <p>Пиктограммы с персонажем-талисманом сайта помогут пользователю достичь целе&#173;вой стра&#173;ницы. Наконец, с помощью темати&#173;ческих иконок легко расставить акценты и привлечь внимание к ключевым пунктам статьи.</p> 
 <p>В сегодняшнем посте мы создадим коллек&#173;цию черно-белых иконок и научимся стили&#173;зовать их с помощью CSS. При этом первый раздел будет полезен и тем, кто хочет полу&#173;чить красочные векторные изображения. Всё потому, что исполь&#173;зуемые в руководстве инструменты применимы для цветных SVG.</p>
 </div>
 <div>
-<h2 id="1" itemprop="name">Как изготовить SVG-иконку из PNG</h2>
+<h2 id="1" itemprop="name">Как создать SVG-иконку из PNG</h2>
 <p itemprop="description">Задача &#8211; конвертировать PNG в одно&#173;цвет&#173;ный, но выразительный SVG малого веса. К счастью, для ее выпол&#173;нения не обя&#173;за&#173;телен опыт работы с векторной графикой.</p>
-<p>В общих чертах, логика простая. Чем контра&#173;стнее переходы цвета, чем чётче и плавнее контуры PNG, тем лучше получится SVG. Но мы не ищем легких путей: мы будем делать иконки с героями манги!</p>
+<p>В общих чертах, логика простая. Чем контра&#173;стнее переходы цвета, чем чётче и плавнее контуры PNG, тем лучше получится SVG. Но мы не ищем легких путей: мы будем делать иконки с персонажами манги!</p>
 <blockquote>Кто не в курсе, <b>манга</b> – это рисованные истории: типа комиксов, но не обяза&#173;тельно смешные. Бывают грустные, трога&#173;тельные, жестокие – какие угодно. Роди&#173;лась манга в Японии, но сейчас ее рисуют повсюду; по мотивам популярных серий пишут романы и выпускают аниме.</blockquote>
 <p>Условимся пользоваться только <span class="under">бесплат&#173;ными инст&#173;рументами</span> (варианты будут пред&#173;ложены по ходу действия):</p>
 <ul>
@@ -132,10 +132,10 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Остается поблагодарить сайт-конвертер и сохра&#173;нить результат конверти&#173;рования. Но расслаб&#173;ляться рано: размер файла мож&#173;но существенно уменьшить!</span>
     <meta itemprop="name" content="Финальная конвертация PNG" />
   </li>
-  <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Идем на сайт <a href="https://jakearchibald.github.io/svgomg/">оптимизатора SVGOMG</a>. Загружаем свой файл, в настройках устана&#173;вливаем нулевую точность (Precision&thinsp;=&thinsp;0) и снимаем галочку с Remove&thinsp;viewBox. Боль&#173;ше ничего не делаем: резуль&#173;тат появится авто&#173;мати&#173;чески. Всё: пригодный для иконки SVG готов!</span>
+  <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Идем на сайт <a href="https://jakearchibald.github.io/svgomg/">оптимизатора SVGOMG</a>. Загружаем свой файл, в настройках устана&#173;вливаем нулевую точность (Precision&thinsp;=&thinsp;0) и снимаем галочку с Remove&thinsp;viewBox. Боль&#173;ше ничего не делаем: резуль&#173;тат появится авто&#173;мати&#173;чески. Всё: пригодный для иконки черно-белый SVG готов!</span>
     <ul class="nobullets oneline txt-center">
-      <li><svg width="210" height="210" role="img" aria-label="Результат после 9 шагов"><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat2" /></svg> &emsp; <link itemprop="image" href="https://do-your-own-seo.com/assets/post-on-icons/manga.svg#icon-cat1" /></li> 
-      <li><svg width="210" height="210" role="img" aria-label="SVG весом менее 3 кб"><use xlink:href="/assets/post-on-icons/manga.svg#icon-hero1" /></svg></li>
+      <li><svg width="210" height="210" role="img" aria-label="Результат после 9 шагов: иконка с кошкой"><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat2" /></svg> &emsp; <link itemprop="image" href="https://do-your-own-seo.com/assets/post-on-icons/manga.svg#icon-cat1" /></li> 
+      <li><svg width="210" height="210" role="img" aria-label="SVG весом менее 3 кб: лицо мальчика"><use xlink:href="/assets/post-on-icons/manga.svg#icon-hero1" /></svg></li>
     </ul>
     <meta itemprop="name" content="Оптимизация полученного SVG" />
   </li>
@@ -194,7 +194,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <p>Пришло время продемонстрировать упомя&#173;нутые манга-иконки. Они собраны в <strong>спрайте</strong> &ndash; едином SVG-файле в тегах <code>&lt;symbol&#8201;id="icon-name"&#8201;viewBox="_"&gt;&lt;/symbol&gt;</code>, а на странице выве&#173;дены как</p>
 <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;svg&gt;&lt;use</span> <span class="na">xlink:href=</span><span class="s">"/assets/post-on-icons/manga.svg#icon-name"</span><span class="nt">/&gt;&lt;/svg&gt;</span></code></pre></figure>
 
-<div id="svgs" class="iconset flex-wrap flex-center" data-size="52" title="Увеличить/Уменьшить" role="img" aria-label="Перечень манга-иконок">
+<div id="svgs" class="iconset flex-wrap flex-center" data-size="52" title="Увеличить/Уменьшить" role="img" aria-label="Иконки с котами и персонажами манги">
   <b class="arrow hidden">&#10237;</b>
   <div class="box"><svg><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat1" /></svg><div class="txt-center hidden"><code>icon-cat1</code></div></div>
   <div class="box"><svg><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat2" /></svg><div class="txt-center hidden">icon-cat2</div></div>
