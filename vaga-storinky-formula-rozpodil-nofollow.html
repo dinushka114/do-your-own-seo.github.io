@@ -95,13 +95,13 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">В чому різниця між <em>dofollow</em> і <em>nofollow</em>?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">В першому випадку пошуковий робот за посиланням перейде, а в іншому – ні, якщо це, звісно, добре вихований бот. Атрибут <span class="red">rel="nofollow"</span> для посилання – на кшталт вивіски <span class="red">«Проходу нема»</span>; dofollow – навпаки, дозвільне значення rel за замовчанням. Гуглбот завжди зважав на заборону ступати далі, але <span class="u">від березня 2020</span> матиме <span class="u">право ігнорувати</span> нофолоу і сканувати сторінку.</p>
+		<p itemprop="text">В першому випадку пошуковий робот за посиланням перейде, а в іншому – ні, якщо це, звісно, добре вихований бот. Атрибут <span class="red">rel="nofollow"</span> для посилання – на кшталт вивіски <span class="red">«Проходу нема»</span>; dofollow – навпаки, дозвільне значення rel за замовчанням. Гуглбот завжди зважав на заборону ступати далі, але <span class="u">1 березня 2020</span> набув <span class="u">право ігнорувати</span> нофолоу і сканувати сторінку.</p>
 	</div>
 </div>
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">Як перевірити посилання на dofollow/&thinsp;nofollow?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">Це легко зробити за допомогою букмарклета &ndash; закладки з кодом JavaScript. Перетягніть цей текст <a href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-link-highlighter</a> на панель закладок вашого браузера. Знаходячись на сторінці, посилання з якої хочете перевірити, натисніть закладку-хайлайтер. Nofollow лінки стануть жовтими, всі інші &ndash; зеленими; до того ж <a href="#3">користувацькі та спонсоровані</a> посилання матимуть кольорову границю, помаранчеву або червону.</p>
+		<p itemprop="text">Це легко зробити за допомогою букмарклета &ndash; закладки з кодом JavaScript. Перетягніть <b><a class="red" href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-and-ugc-link-highlighter</a></b> на панель закладок вашого браузера. Знаходячись на сторінці, посилання з якої хочете перевірити, натисніть букмарклет-хайлайтер. Всі nofollow лінки стануть жовтими, інші &ndash; зеленими. <a href="#3">Користувацькі та спонсоровані</a> посилання матимуть кольорову границю, помаранчеву або червону.</p>
 	</div>
 </div>
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -341,7 +341,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 				"headline": "Як PageRank переходить з посиланням: про nofollow і не тільки",  
 				"alternativeHeadline": "Вага сторінки: коли посилання шкодять, коли допомагають",
 				"datePublished": "2019-12-03 20:09:00 +0000",
-				"dateModified": "2019-12-28 17:00:00 +0000",
+				"dateModified": "2020-03-01 11:00:00 +0000",
 				"inLanguage": "українська",
 				"isFamilyFriendly": "true",
 				"author": {

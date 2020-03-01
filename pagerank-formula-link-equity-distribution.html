@@ -73,7 +73,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
     <div class="post-content" itemscope itemtype="https://schema.org/FAQPage"> <ul class="toc">
 	<li><a href="#1">Good old PageRank formula</a></li>
 	<li><a href="#2">External links: pros and cons</a></li>
-	<li><a href="#3">Nofollow: how not to waste value</a></li>
+	<li><a href="#3">Nofollow: how not to waste page value</a></li>
 	<li><a href="#4">New from Google: "ugc" and "sponsored"</a></li>
 </ul>
 <div>
@@ -90,10 +90,10 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <p>Anyway, the PR is only one of hundreds of the SERP-rank components: many of them are query-specific, intent-specific, or even user-specific. As opposed to the <em>static</em> PageRank, they’re sometimes called <em>dynamic</em> ranking factors.
 </p>
 <p id="FAQ">To sort things out, let’s start with simple questions.</p>
-<h3 class="faq">Why outbound links reduce the link equity?</h3>
-<p>Because every link silently says, &ldquo;Don’t stay here, you’d better stop by <span class="u">there.</span>&rdquo;</p>
 <h3 class="faq">Why inbound links add credibility to a website?</h3>
 <p>Because the page a link is on seems to suggest, &ldquo;Look, I highly recommend <span class="u">this</span>!&rdquo;</p>
+<h3 class="faq">Why outbound links reduce the link equity?</h3>
+<p>Because every link silently says, &ldquo;Don’t stay here, you’d better stop by <span class="u">there.</span>&rdquo;</p>
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">What is dofollow and nofollow links?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
@@ -103,7 +103,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">How to check nofollow and dofollow links?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">It’s easy to highlight no-followed links, including <a href="#4">user-generated and sponsored</a>, with the help of a bookmarklet. Drag this <b><a class="red" href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-and-UGC-link-highlighter</a></b> to your browser bookmarks bar. On the page you want to check, click the bookmark&#173;let: all <b>no</b>-follow links will turn yellow; <b>do</b>-follow will become green. User's or paid links will have orange or red borders.</p>
+		<p itemprop="text">It’s easy to highlight no-followed links, including <a href="#4">user-generated and sponsored</a>, with the help of a bookmarklet. Drag this <b><a class="red" href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-and-ugc-link-highlighter</a></b> to your browser bookmarks bar. On the page you want to check, click the bookmark&#173;let: all <b>no</b>-follow links will turn yellow; <b>do</b>-follow will become green. User's or paid links will have orange or red borders.</p>
 	</div>
 </div>
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
@@ -116,7 +116,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 	<img loading="lazy" src="/images/posts/bot.jpg" alt="How googlebot works" class="fullscreen-right" title="It may not be the Googlebot, but it’s cute" />
 	<h3 itemprop="name">What does it mean that nofollow becomes a hint?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">The nofollow attribute of the anchor tag is no longer a directive. It may be considered by search engines for ranking purposes, and from <span class="u">March 1, 2020</span>, the googlebots will have the <span class="u">right to ignore</span> it. That means bots will be able to investigate and index the destination page.</p>
+		<p itemprop="text">The nofollow attribute of the anchor tag is no longer a directive. <span class="u">March 1, 2020</span>, the googlebot <span class="u">got the right to ignore it</span>, follow the link and crawl the destination page. So, any link may be considered by search engines for ranking purposes.</p>
 	</div>
 </div>
 </div>
@@ -321,7 +321,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 				"headline": "How do links supply the page with juice? Talk about link attributes and more",  
 				"alternativeHeadline": "How do links pass equity? When links harm and when help",
 				"datePublished": "2019-12-13 19:02:00 +0000",
-				"dateModified": "2019-12-28 17:00:00 +0000",
+				"dateModified": "2020-03-01 11:00:00 +0000",
 				"inLanguage": "English",
 				"isFamilyFriendly": "true",
 				"author": {

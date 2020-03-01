@@ -95,14 +95,14 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">В чем разница между <em>dofollow</em> и <em>nofollow</em>?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">В том, что по первой ссылке поисковый робот перейдет, а по второй – нет, если он хорошо воспитан. Атрибут <span class="red">rel&#8239;=&#8239;"nofollow"</span> – вроде таб&#173;лички <span class="red">«Хода нет»</span>, а dofollow – разрешительное значение rel по умолча&#173;нию. Пока что при виде nofollow googlebot послушно отвора&#173;чивается, но <span class="u">с 1 марта 2020</span> получит право <span class="u">игнорировать запрет</span> и скани&#173;ровать страницу.</p>
+		<p itemprop="text">В том, что по первой ссылке поисковый робот перейдет, а по второй – нет, если он хорошо воспитан. Атрибут <span class="red">rel&#8239;=&#8239;"nofollow"</span> – вроде таб&#173;лички <span class="red">«Хода нет»</span>, а dofollow – разрешительное значение rel по умолча&#173;нию. Раньше при виде nofollow googlebot послушно отвора&#173;чивался, но <span class="u">1 марта 2020</span> получил право <span class="u">игнорировать запрет</span> и сканиро&#173;вать страницу.</p>
 	</div>
 </div>
 
 <div itemscope="" itemprop="mainEntity" itemtype="https://schema.org/Question">
 	<h3 itemprop="name">Как проверить ссылки на dofollow/&thinsp;nofollow?</h3>
 	<div itemscope="" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-		<p itemprop="text">Это легко сделать с помощью букмарклета &ndash; закладки с кодом JavaScript. Перетащите этот текст <a href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-link-highlighter</a> на панель зак&#173;ладок брау&#173;зера. Находясь на странице, ссылки с которой хотите проверить, клик&#173;ните заклад&#173;ку-хайлайтер: все nofollow станут желтыми, остальные ссылки &ndash; зелеными, причем <a href="#3">пользо&#173;вательские и спонсорские</a> будут обведены оранжевым и красным (соотв.).</p>
+		<p itemprop="text">Это легко сделать с помощью букмарклета &ndash; закладки с кодом JavaScript. Перетащите <b><a class="red" href="javascript:(function(){var o,e,l=document.links;for(o=0;o&lt;l.length;++o)-1!=(e=l[o].rel.toLowerCase()).indexOf(&quot;nofollow&quot;)?(l[o].style.backgroundColor=&quot;yellow&quot;,l[o].title+=&quot; NOfollow&quot;):l[o].style.backgroundColor=&quot;lightgreen&quot;,-1!=e.indexOf(&quot;ugc&quot;)&amp;&amp;(l[o].style.border=&quot;6px solid orange&quot;,l[o].title+=&quot; UGC&quot;),-1!=e.indexOf(&quot;sponsored&quot;)&amp;&amp;(l[o].style.outline=&quot;4px solid red&quot;,l[o].title+=&quot; Sponsored&quot;)})()">Nofollow-and-ugc-link-highlighter</a></b> на панель закладок браузера. Находясь на странице, ссылки с которой хотите проверить, клик&#173;ните букмарклет-хайлайтер. Все nofollow станут желтыми, остальные ссылки &ndash; зелеными, причем <a href="#3">пользо&#173;вательские и спонсорские</a> будут обведены оранжевым и красным.</p>
 	</div>
 </div>
 
@@ -341,7 +341,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 				"headline": "Как ссылки передают PageRank: про nofollow и не только",  
 				"alternativeHeadline": "Ссылочный вес страницы: как не потерять, а приумножить",
 				"datePublished": "2019-12-03 20:09:00 +0000",
-				"dateModified": "2019-12-28 17:00:00 +0000",
+				"dateModified": "2020-03-01 11:00:00 +0000",
 				"inLanguage": "русский",
 				"isFamilyFriendly": "true",
 				"author": {
