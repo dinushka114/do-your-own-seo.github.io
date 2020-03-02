@@ -86,12 +86,13 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 </div>
 <div>
 <h2 id="1" itemprop="name">Как создать SVG-иконку из PNG</h2>
+<meta itemprop="image" content="https://do-your-own-seo.com/assets/post-on-icons/manga.svg#icon-hero1" />
 <p itemprop="description">Задача &#8211; конвертировать PNG в одно&#173;цвет&#173;ный, но выразительный SVG малого веса. К счастью, для ее выпол&#173;нения не обя&#173;за&#173;телен опыт работы с векторной графикой.</p>
 <p>В общих чертах, логика простая. Чем контра&#173;стнее переходы цвета, чем чётче и плавнее контуры PNG, тем лучше получится SVG. Но мы не ищем легких путей: мы будем делать иконки с персонажами манги!</p>
 <blockquote>Кто не в курсе, <b>манга</b> – это рисованные истории: типа комиксов, но не обяза&#173;тельно смешные. Бывают грустные, трога&#173;тельные, жестокие – какие угодно. Роди&#173;лась манга в Японии, но сейчас ее рисуют повсюду; по мотивам популярных серий пишут романы и выпускают аниме.</blockquote>
 <p>Условимся пользоваться только <span class="under">бесплат&#173;ными инст&#173;рументами</span> (варианты будут пред&#173;ложены по ходу действия):</p>
 <ul>
-	<li><span itemprop="tool" itemtype="http://schema.org/HowToTool" itemscope=""><span itemprop="name">редактор PNG с поддержкой прозрачного фона</span></span>;</li>
+	<li><span itemprop="tool" itemtype="http://schema.org/HowToTool" itemscope=""><span itemprop="name">редактор PNG</span></span> с поддержкой прозрачного фона;</li>
 	<li><span itemprop="tool" itemtype="http://schema.org/HowToTool" itemscope=""><span itemprop="name">конвертер PNG в SVG</span></span>;</li>
 	<li><span itemprop="tool" itemtype="http://schema.org/HowToTool" itemscope=""><span itemprop="name">оптимизатор SVG</span></span> для уменьшения веса файла.</li>
 </ul>
@@ -107,13 +108,12 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
       <li><span>Избавьтесь от мелких деталей.</span></li>
     </ol>
     <meta itemprop="name" content="Подготовка и кадрирование PNG" />
-    <meta itemprop="image" content="https://do-your-own-seo.com/images/posts/before_1.png" />
   </li>
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Выделите светлые области, которые дол&#173;жны быть белыми на SVG, и очистите их: они должны стать пустыми (возможно, где-то придется дори&#173;совать границу). Это поз&#173;волит добиться большей четкости конту&#173;ров на SVG.</span>
     <meta itemprop="name" content="Обработка светлых участков" />
   </li>
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Взгляните на темные области: если внутри имеются более светлые фрагменты, конвертер может решить, что они «белые». Лучше закрасить их темным вручную, причем красота не особо важна: главное, чтобы контуры не пострадали. Сохраните полученный PNG. Он будет выглядеть при&#173;мерно так:</span>
-    <ul class="nobullets oneline txt-center"><li><img loading="lazy" src="/images/posts/after-the-3rd-step_1.jpg" alt="Png №1 после 3-го шага" itemprop="image" /> &thinsp; </li><li><img loading="lazy" src="/images/posts/after-the-3rd-step_2.jpg" alt="Png №2 после 3-го шага" /></li></ul>
+    <ul class="nobullets oneline txt-center"><li><img loading="lazy" src="/images/posts/after-the-3rd-step_1.jpg" alt="Png №1 после 3-го шага" /> &thinsp; </li><li><img loading="lazy" src="/images/posts/after-the-3rd-step_2.jpg" alt="Png №2 после 3-го шага" /></li></ul>
     <meta itemprop="name" content="Проверка темных участков" />
   </li>
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Уменьшьте картинку до 200x200px: для нашего способа это обеспечит разумный баланс между детализацией и весом SVG-файла. Снова повысьте контрастность и сохраните файл <span class="u">под именем 200x200</span>.png.</span>
@@ -134,7 +134,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
   </li>
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">Идем на сайт <a href="https://jakearchibald.github.io/svgomg/">оптимизатора SVGOMG</a>. Загружаем свой файл, в настройках устана&#173;вливаем нулевую точность (Precision&thinsp;=&thinsp;0) и снимаем галочку с Remove&thinsp;viewBox. Боль&#173;ше ничего не делаем: резуль&#173;тат появится авто&#173;мати&#173;чески. Всё: пригодный для иконки черно-белый SVG готов!</span>
     <ul class="nobullets oneline txt-center">
-      <li><svg width="210" height="210" role="img" aria-label="Результат после 9 шагов: иконка с кошкой"><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat2" /></svg> &emsp; <link itemprop="image" href="https://do-your-own-seo.com/assets/post-on-icons/manga.svg#icon-cat1" /></li> 
+      <li><svg width="210" height="210" role="img" aria-label="Результат после 9 шагов: иконка с кошкой"><use xlink:href="/assets/post-on-icons/manga.svg#icon-cat2" /></svg> &emsp; </li> 
       <li><svg width="210" height="210" role="img" aria-label="SVG весом менее 3 кб: лицо мальчика"><use xlink:href="/assets/post-on-icons/manga.svg#icon-hero1" /></svg></li>
     </ul>
     <meta itemprop="name" content="Оптимизация полученного SVG" />
