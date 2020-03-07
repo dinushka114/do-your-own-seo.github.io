@@ -3,13 +3,22 @@
     <description>Symbiosis of SEO practice and theory &#9728; Website optimization on your own &#9728; Іf you understand SEO, you can Do It Yourself: it's adventurous and exciting!</description>
     <link>https://do-your-own-seo.com/en/</link>
     <atom:link href="https://do-your-own-seo.com/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 05 Mar 2020 10:53:43 +0000</pubDate>
-    <lastBuildDate>Thu, 05 Mar 2020 10:53:43 +0000</lastBuildDate>
+    <pubDate>Sat, 07 Mar 2020 13:18:32 +0000</pubDate>
+    <lastBuildDate>Sat, 07 Mar 2020 13:18:32 +0000</lastBuildDate>
     <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
     <webfeeds:icon>https://do-your-own-seo.com/images/square-icon.png</webfeeds:icon>
     <webfeeds:logo>https://do-your-own-seo.com/images/favicon-30px-height.png</webfeeds:logo>
     <webfeeds:accentColor>618930</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
+      <item>
+        <title>How to create SVGs of manageable size from PNG and use them for your custom font</title>
+        <description>How to convert PNG to a lightweight monochrome SVG without any experience with vector graphics. How to create a web font or SVG sprite from icons, style, and use to sharpen focus on your text content.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/how-to-create-manga-icon-font.jpg" class="webfeedsFeaturedVisual"/>]]>
+            
+        </description>
+        <pubDate>Sun, 09 Feb 2020 18:02:00 +0000</pubDate>
+        <link>https://do-your-own-seo.com/SVG-icons-from-PNG-custom-fonts-and-sprites</link>
+        <guid isPermaLink="true">https://do-your-own-seo.com/SVG-icons-from-PNG-custom-fonts-and-sprites</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/how-to-create-manga-icon-font.jpg" /><category>Content</category><category>svg icons</category><category>custom font</category><category>manga</category><category>SEO</category></item>
+    
       <item>
         <title>How do links supply the page with juice? Talk about link attributes and more</title>
         <description>Everybody wants to know how links distribute &#8220;juice&#8221; among webpages, and what amount of it to be dissipated. And while we endeavor to guess a proportion, the GoogleBot chuckles reading that every dofollow link passes &#8727;&#8727;% of equity.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/link-juice-leakage.jpg" class="webfeedsFeaturedVisual"/>]]>
