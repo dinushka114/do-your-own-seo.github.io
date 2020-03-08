@@ -3,15 +3,15 @@
     <description>Оптимизация сайта своими силами &#9728; Как понять и применять SEO на практике &#9728; Как поладить с Google и не бояться апдейтов поисковых систем</description>
     <link>https://do-your-own-seo.com/ru/</link>
     <atom:link href="https://do-your-own-seo.com/ru/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Mar 2020 17:07:00 +0000</pubDate>
-    <lastBuildDate>Sun, 08 Mar 2020 17:07:00 +0000</lastBuildDate>
+    <pubDate>Sun, 08 Mar 2020 19:04:02 +0000</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2020 19:04:02 +0000</lastBuildDate>
     <xhtml:meta xmlns:xhtml="http://www.w3.org/1999/xhtml" name="robots" content="noindex" />
     <webfeeds:icon>https://do-your-own-seo.com/images/square-icon.png</webfeeds:icon>
     <webfeeds:logo>https://do-your-own-seo.com/images/favicon-30px-height.png</webfeeds:logo>
     <webfeeds:accentColor>618930</webfeeds:accentColor>
     <webfeeds:related layout="card" target="browser"/>
       <item>
-        <title>Иконки из PNG? &#8211; Легко! Переводим в SVG и компонуем шрифт</title>
+        <title>Иконочный шрифт ручной работы: обновляем поблекшие от времени статьи</title>
         <description>Как конвертировать PNG в одноцветную SVG-иконку, не имея опыта работы с векторной графикой. Как собрать из иконок веб-шрифт и использовать его при оформлении текстов.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/how-to-create-manga-icon-font.jpg" class="webfeedsFeaturedVisual"/>]]>
             
         </description>
@@ -20,7 +20,7 @@
         <guid isPermaLink="true">https://do-your-own-seo.com/kastomnyj-shrift-SVG-ikonki-iz-PNG</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/how-to-create-manga-icon-font.jpg" /><category>Content</category><category>собственный шрифт</category><category>SVG иконки</category><category>SEO</category></item>
     
       <item>
-        <title>Как ссылки передают PageRank: про nofollow и не только</title>
+        <title>О том, как ссылки питают страницы и почему вес утекает с сайта</title>
         <description>Никто не отказался бы узнать, сколько веса передает и рассеивает каждая ссылка. И пока мы силимся угадать пропорцию, гуглбот хихикает украдкой, читая, что «вес делится в отношении 5:1» и «каждая исходя&#173;щая ссылка отбирает у донора 10&#8211;15% веса».<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/leaking-link-juice.jpg" class="webfeedsFeaturedVisual"/>]]>
             
         </description>
@@ -29,7 +29,7 @@
         <guid isPermaLink="true">https://do-your-own-seo.com/ves-stranitsy-raspredelenie-formula-nofollow</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/leaking-link-juice.jpg" /><category>PageRank</category><category>ссылочный вес</category><category>Google</category><category>SEO</category></item>
     
       <item>
-        <title>Как Google ранжирует сайты: на какие факторы можно влиять</title>
+        <title>Как алгоритмы Google ранжируют веб-страницы</title>
         <description>Чтобы вывести страницу в Топ-10 резуль&#173;татов поиска, уже недостаточно, да и небезопасно закупать ссылки. Алгоритмы ранжирования все чаще поощряют качество контента, и но&#173;вые патенты Google подтвер&#173;ждают тенденцию.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/how-do-google-algorithms-work.jpg" class="webfeedsFeaturedVisual"/>]]>
             
         </description>
@@ -38,7 +38,7 @@
         <guid isPermaLink="true">https://do-your-own-seo.com/kak-rabotajut-algoritmy-google</guid><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://do-your-own-seo.com/images/preview/how-do-google-algorithms-work.jpg" /><category>Google</category><category>Google алгоритмы</category><category>ранжирование</category><category>SEO</category></item>
     
       <item>
-        <title>Авторитет сайта и компетентность, как их понимает Google</title>
+        <title>E-A-T, или Какие сайты Google не примет всерьез</title>
         <description>Каждый, кого упорно игнорирует Гугл, должен задать себе ряд вопросов. Отвечать жела&#173;тельно начистоту, заранее проверив, какие страницы выходят на первый план в Поиске по целевым запросам.<![CDATA[<img src="https://do-your-own-seo.com/images/posts/large/writing.jpg" class="webfeedsFeaturedVisual"/>]]>
             
         </description>
