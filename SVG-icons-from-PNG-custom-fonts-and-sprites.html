@@ -8,7 +8,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#618930">
-<title>SVG-icon from PNG-cartoon + 2 ways of using custom icons</title>
+<title>PNG cartoon to SVG icon + 2 ways of using custom icons</title>
 <meta name="description" content="Content is King, but the presentation is royal &#9812; entourage. What we'll do: Create SVG icons from PNG &#10004; Generate an SVG sprite or icon font &#10004; Use SVG icons and play with CSS styling">
 <meta name="keywords" content="png to svg">
 <link rel="canonical" href="https://do-your-own-seo.com/SVG-icons-from-PNG-custom-fonts-and-sprites">
@@ -34,14 +34,14 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <link rel="preconnect" href="https://www.google.com/" crossorigin>
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@do_your_own_seo" />
-<meta name="twitter:title" content="SVG-icon from PNG-cartoon + 2 ways of using custom icons" />
+<meta name="twitter:title" content="PNG cartoon to SVG icon + 2 ways of using custom icons" />
 <meta name="twitter:description" content="How to convert PNG to a lightweight single-color SVG without any experience with vector graphics. How to create a webfont or sprite from SVG icons, style them, and use to sharpen focus on your text content." /> 
 <meta name="twitter:image" content="https://do-your-own-seo.com/images/posts/large/how-to-create-manga-icon-font.jpg" />
 <meta property="og:image" content="https://do-your-own-seo.com/images/posts/large/how-to-create-manga-icon-font.jpg" /> 
 <meta property="og:type" content="article" />
   
 <meta property="og:url" content="https://do-your-own-seo.com/SVG-icons-from-PNG-custom-fonts-and-sprites" />
-<meta property="og:title" content="SVG-icon from PNG-cartoon + 2 ways of using custom icons" />
+<meta property="og:title" content="PNG cartoon to SVG icon + 2 ways of using custom icons" />
 <meta property="og:description" content="Content is King, but the presentation is royal &#9812; entourage. What we'll do: Create SVG icons from PNG &#10004; Generate an SVG sprite or icon font &#10004; Use SVG icons and play with CSS styling" />
 <meta property="og:site_name" content="do-your-own-SEO.com" /> </head>
 <body><header class="site-header">
@@ -65,18 +65,18 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
   <div class="container">
     <article class="post">
   <div class="card">
-    <h1> How to create an SVG of manageable size from PNG and use it for your custom font </h1> 
+    <h1> How to generate SVGs of manageable size from PNG and use your custom icon set </h1> 
 	<div class="post-meta">
 	<small>
 	    <time datetime="2020-02-09">Feb 9, 2020</time>
 	    •&ensp;9&nbsp;min read</small>
 	</div>
     <div class="post-content" itemscope itemtype="https://schema.org/HowTo"> <ul class="toc">
-  <li><a href="#1">PNG to SVG icons in 9 steps</a></li>
+  <li><a href="#1">PNG to SVG icon in 9 steps</a></li>
   <li><a href="#2">Iconic font from SVGs: pros and cons</a></li>
-  <li><a href="#2.1">&bullet;&ensp;Fontello VS IcoMoon for webfont generation</a></li>
-  <li><a href="#3">How to use icons and SVG sprites in HTML</a></li>
-  <li><a href="#3.1">&bullet;&ensp;CSS styles for SVG sprites and custom fonts &nbsp;<span class="red">&#42;interactive</span></a></li>
+  <li><a href="#2.1">&bullet;&ensp;Fontello vs IcoMoon for creating a webfont</a></li>
+  <li><a href="#3">How to use custom icons and SVG sprites in HTML</a></li>
+  <li><a href="#3.1">&bullet;&ensp;CSS styles for SVG sprites and webfonts &nbsp;<span class="red">&#42;interactive</span></a></li>
 </ul>
 <div>
 <p>You may say, am I need the personal iconic font if there are enough already? Perhaps, it might help. Using custom icons, you'll equip your site with stylish buttons, or reinvigorate the piece of unleavened content. For instance, an ornamented alphabet is suited to <b>drop caps</b> that open every new text section.</p>
@@ -86,7 +86,7 @@ https://www.gstatic.com https://www.google-analytics.com https://www.google.com;
 <p>In today's post, we'll create a collection of black-and-white icons and learn how to style them with CSS. Yet the first section will be useful to those who want to get colorful vector images, since all the mentioned tools apply to color SVGs.</p>
 </div>
 <div>
-<h2 id="1" itemprop="name">How to create SVG icon from PNG</h2>
+<h2 id="1" itemprop="name">How to make an SVG icon from PNG file</h2>
 <meta itemprop="image" content="https://do-your-own-seo.com/assets/post-on-icons/result-thumbnail.svg" />
 <p itemprop="description"><b>The task</b> is to convert a chosen PNG to the lightweight, single-color, but eloquent SVG. Fortunately, experience with vector graphics is not required for its implementation.</p>
 <p>In general, the logic is simple. The more contrasting are adjacent colors, the sharper and smoother are edges of the PNG, the better SVG we'll have. But we don't seek short cuts: we are going to make icons from pictures of manga characters!</p>
@@ -128,7 +128,7 @@ Go to the website of PNG&#10132;SVG converter. I recommend the free tool <a href
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">On pngtosvg.com, reduce the palette to 1 color (there are 5 by default), upload your file, and generate the SVG.</span>
     <meta itemprop="name" content="Converter adjustment" />
   </li>
-  <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">If the quality is not satisfactory yet, edit 200x200.png or create 300x300.png from the large PNG, and redo step 6. The new SVG will be more precise but weighty.</span>
+  <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">If the quality is not satisfactory yet, edit 200x200.png or make 300x300.png from the large PNG, and redo step 6. The new SVG will be more precise but weighty.</span>
     <meta itemprop="name" content="What if the quality is poor" />
   </li>
   <li itemprop="step" itemscope="" itemtype="http://schema.org/HowToStep"><span itemprop="text">It remains to thank the converter (they accept donations) and save the output SVG. But it's too early to relax: the file size can be significantly reduced!</span>
@@ -161,7 +161,7 @@ Go to the website of PNG&#10132;SVG converter. I recommend the free tool <a href
 </ul>
 <p>However, in our case, the main drawback is not so frightful. The custom webfont can be hosted on the same server as the entire site: then the client browser won't establish the connection to the CDN. What is more, at least 80% of browsers support the <a href="https://caniuse.com/#search=preload">preload</a> hint, enabling the preloading of cacheable resources like webfonts.</p>
 <p>So, if a webfont is your choice for organizing the set of icons, let's continue. Otherwise, <a href="#3">let's jump</a> through the section.</p>
-<h3 id="2.1">Webfont generators in use: IcoMoon VS Fontello</h3>
+<h3 id="2.1">Webfont generators in use: IcoMoon vs Fontello</h3>
 <p>Here are two powerful and user-friendly font generation applications: <b><a href="https://icomoon.io/app/">IcoMoon App</a></b> and <b><a href="http://fontello.com">Fontello</a></b>.</p>
 <table class="txt-center"><caption><small><em>The comparison of Web font generators Fontello and IcoMoon App</em></small></caption>
    <tr><th><img src="/assets/post-on-icons/icomoon-logo.jpg" alt="IcoMoon App logo" loading="lazy" /></th><th><img src="/assets/post-on-icons/fontello-logo.jpg" alt="Fontello logo" loading="lazy" /></th></tr>
@@ -308,16 +308,16 @@ Go to the website of PNG&#10132;SVG converter. I recommend the free tool <a href
     <a rel="nofollow" href="https://facebook.com/sharer.php?u=https://do-your-own-seo.com" aria-label="Share on Facebook">
       <i class="icon icon-facebook" aria-hidden="true"></i>
     </a>
-    <a rel="nofollow" href="https://twitter.com/intent/tweet?text=SVG-icon+from+PNG-cartoon+%2B+2+ways+of+using+custom+icons&url=https://do-your-own-seo.com&hashtags=Content,svgIcons" aria-label="Share on Twitter">
+    <a rel="nofollow" href="https://twitter.com/intent/tweet?text=PNG+cartoon+to+SVG+icon+%2B+2+ways+of+using+custom+icons&url=https://do-your-own-seo.com&hashtags=Content,svgIcons" aria-label="Share on Twitter">
       <i class="icon icon-twitter" aria-hidden="true"></i>
     </a>
-    <a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url=https://do-your-own-seo.com&title=SVG-icon+from+PNG-cartoon+%2B+2+ways+of+using+custom+icons&source=Do%20Your%20Own%20SEO" aria-label="Share on LinkedIn">
+    <a rel="nofollow" href="https://www.linkedin.com/shareArticle?mini=true&url=https://do-your-own-seo.com&title=PNG+cartoon+to+SVG+icon+%2B+2+ways+of+using+custom+icons&source=Do%20Your%20Own%20SEO" aria-label="Share on LinkedIn">
       <i class="icon icon-linkedin2" aria-hidden="true"></i>
     </a>
-    <a rel="nofollow" href="https://www.reddit.com/submit?url=https://do-your-own-seo.com&title=SVG-icon+from+PNG-cartoon+%2B+2+ways+of+using+custom+icons&resubmit=true" aria-label="Share on Reddit">
+    <a rel="nofollow" href="https://www.reddit.com/submit?url=https://do-your-own-seo.com&title=PNG+cartoon+to+SVG+icon+%2B+2+ways+of+using+custom+icons&resubmit=true" aria-label="Share on Reddit">
       <i class="icon icon-reddit-alien" aria-hidden="true"></i>
     </a>
-    <a rel="nofollow" href="mailto:?Subject=Do%20Your%20Own%20SEO%20blog%20post&body=SVG-icon+from+PNG-cartoon+%2B+2+ways+of+using+custom+icons" aria-label="Mail this">
+    <a rel="nofollow" href="mailto:?Subject=Do%20Your%20Own%20SEO%20blog%20post&body=PNG+cartoon+to+SVG+icon+%2B+2+ways+of+using+custom+icons" aria-label="Mail this">
       <i class="icon icon-envelop" aria-hidden="true"></i>
     </a>
   </div>
@@ -399,8 +399,8 @@ Go to the website of PNG&#10132;SVG converter. I recommend the free tool <a href
 				"image":"https://do-your-own-seo.com/images/posts/how-to-create-manga-icon-font.jpg", 
 				"url": "https://do-your-own-seo.com/SVG-icons-from-PNG-custom-fonts-and-sprites",
 				"mainEntityOfPage": "True",  
-				"headline": "How to create an SVG of manageable size from PNG and use it for your custom font",  
-				"alternativeHeadline": "SVG-icon from PNG-cartoon + 2 ways of using custom icons",
+				"headline": "How to generate SVGs of manageable size from PNG and use your custom icon set",  
+				"alternativeHeadline": "PNG cartoon to SVG icon + 2 ways of using custom icons",
 				"datePublished": "2020-02-09 18:02:00 +0000",
 				"dateModified": "2020-02-09 18:02:00 +0000",
 				"inLanguage": "English",
